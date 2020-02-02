@@ -1,7 +1,7 @@
 {
-    "agency": "DOE",
-    "organization": "Lawrence Livermore National Laboratory",
-    "contact_email": "open-source@llnl.gov",
+    "agency": "DOC",
+    "organization": "National Institute of Standards and Technology",
+    "contact_email": "faical.congo@nist.gov",
 
     "permissions": {
         "usageType": "exemptByAgencyMission",
@@ -15,18 +15,10 @@
             "public_only": true,
 
             "orgs": [
-                "LLNL",
-                "spack",
-                "xbraid"
+                "usnistgov",
             ],
-            "repos": [
-                "dun/conman",
-                "dun/munge"
-            ],
-            "exclude": [
-                "LLNL",
-                "spack/spack.io"
-            ]
+            "repos": [],
+            "exclude": []
         }
     ],
 
@@ -37,14 +29,9 @@
             "fetch_languages": false,
 
             "repos": [
-                "IanLee1521/flake8",
-                "gnachman/iterm2",
-                "gitlab-org/gitlab-ce"
+                "usnistgov"
             ],
-            "exclude": [
-                "IanLee1521",
-                "gitlab-org/gitlab-ce"
-            ]
+            "exclude": [] 
         }
     ]
 }

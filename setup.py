@@ -11,14 +11,14 @@ with open("requirements/production.txt") as fp:
     install_reqs = [x for x in lines if not x.startswith("#")]
 
 setup(
-    name="llnl-scraper",
+    name="nist-scraper",
     version="0.8.1",
     description="Package for extracting software repository metadata",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Ian Lee",
-    author_email="lee1001@llnl.gov",
-    url="https://github.com/llnl/scraper",
+    author="Faical Yannick P. Congo",
+    author_email="faical.congo@nist.gov",
+    url="https://github.com/faical-yannick-congo/scraper",
     packages=find_packages(),
     install_requires=install_reqs,
     entry_points={"console_scripts": ["scraper = scraper.gen_code_gov_json:main",]},
